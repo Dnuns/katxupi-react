@@ -15,7 +15,7 @@ While building my first Freecodecamp's React project, Random Quote Machine, I re
 
 After finish the Freecodecamp project on Codepen, I reused the code to rebuild PP's project in React.
 
-Besides turning the project into React app, I added more quotes and author to the project. I Also did some css adjustments.
+Besides turning the project into React app, I added more quotes and author to the project. I Also did some CSS adjustments.
 
 ## Links
 
