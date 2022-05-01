@@ -23,7 +23,7 @@ Besides turning the project into React app, I added more quotes and author to th
 https://codepen.io/dnuns/pen/NWyWxxR
 
 ### PP's project
-https://codepen.io/dnuns/pen/NWyWxxR
+https://katxupi.herokuapp.com
 
 ### Katxupi #44_kotxiposix quote generator
 https://katxupi-react.vercel.app/
