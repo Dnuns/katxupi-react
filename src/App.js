@@ -1,4 +1,3 @@
-import './App.css';
 import { Component } from 'react';
 import Katxupi from './assets/katxupi.png';
 
