@@ -102,6 +102,8 @@ const data = [
   }
 ];
 
+/*-------------- component --------------*/
+
 class App extends Component {
   constructor(props) {
     super(props);
