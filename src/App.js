@@ -78,7 +78,7 @@ const data = [
   },
   {
     author: "TCV",
-    text: "Fredamson Dias."
+    text: "Fredson Dias."
   },
   {
     author: "#44_kotxiposix",
@@ -95,6 +95,10 @@ const data = [
   {
     author: "PP",
     text: "Katxupinóquio do diabo."
+  },
+  {
+    author: "#44_kotxiposix",
+    text: "Nox on the rocks."
   }
 ];
 
