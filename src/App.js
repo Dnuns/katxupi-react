@@ -91,7 +91,7 @@ const data = [
   },
   {
     author: "#44_kotxiposix",
-    text: "Katxupi"
+    text: "Katxupi."
   },
   {
     author: "PP",
