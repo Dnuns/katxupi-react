@@ -85,6 +85,7 @@ button {
     0 8px 8px 1px rgba(0, 0, 0, 0.5);
   outline: none;
   font-family: "Amatic SC", sans-serif;
+  cursor: pointer;
 }
 
 button:active {
