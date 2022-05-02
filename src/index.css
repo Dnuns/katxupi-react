@@ -9,24 +9,31 @@
 body {
   background: #ffeea4;
   font-family: "Amatic SC", sans-serif;
-  max-height: 100vh;
-  max-width: 100vw;
+  height: 100vh;
+  width: 100vw;
+  margin: 0 auto;
 }
 
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  margin:  auto auto;
+  width: inherit;
+  height: inherit;
 }
 
 .face {
   margin-top: 25px;
-  margin-left: 125px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .face img {
   height: 600px;
   width: auto;
+  margin: auto auto;
 }
 
 section {
@@ -37,6 +44,8 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .quote{
@@ -157,18 +166,13 @@ button:active {
 
 @media only screen and (max-width: 768px) {
   body {
-    width: 100vw;
-    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
   }
 
-  .main {
-    height: inherit;
-  }
   .face img {
     height: 300px;
     width: auto;
-    margin-right: 100px;
-    margin-top: 40px;
   }
 
   .button {
