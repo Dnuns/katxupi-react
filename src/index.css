@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css?family=Amatic+SC:400,700");
 
-*{
+*,
+html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -172,7 +173,7 @@ button:active {
   }
 
   .face img {
-    height: 300px;
+    height: 250px;
     width: auto;
   }
 
@@ -182,5 +183,9 @@ button:active {
 
   h1 {
     font-size: 50px;
+  }
+
+  .text {
+    width: 80%;
   }
 }
