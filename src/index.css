@@ -13,6 +13,11 @@ body {
   height: 100vh;
   width: 100vw;
   margin: 0 auto;
+  margin: 0 auto;
+  overflow-x: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .main {
@@ -20,20 +25,20 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin:  auto auto;
-  width: inherit;
-  height: inherit;
+  max-width: 100%;
 }
 
 .face {
-  margin-top: 25px;
+  margin-top: 20px;
   margin-left: auto;
   margin-right: auto;
+  max-width: 100%;
 }
 
 .face img {
-  height: 600px;
-  width: auto;
+  max-width: 600px;
+  width: 100%;
+  height: auto;
   margin: auto auto;
 }
 
@@ -46,11 +51,9 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
 }
 
-.quote{
+.quote {
   width: 100%;
   text-align: center;
 }
@@ -64,7 +67,7 @@ h1 {
   user-select: none;
 }
 
-#author{
+#author {
   font-size: 26px;
 }
 
@@ -74,8 +77,9 @@ button {
   font-size: 30px;
   padding: 20px 60px;
   color: gray;
-  margin: 10px 10px 50px;
   border-radius: 6px;
+  margin-top: 5px;
+  margin-bottom: 20px;
   text-align: center;
   transition: top 0.01s linear;
   text-shadow: 0 1px 0 rgba(0, 0, 0, 0.267);
