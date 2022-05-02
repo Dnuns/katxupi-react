@@ -30,7 +30,9 @@ https://katxupi-react.vercel.app/
 
 
 ## preview
-![screenshot](katxupi.png)
+![screenshot](readme_img/katxupi.png)
+
+![screenshot](readme_img/katxupi_mbl.png)
 
 ---
 
