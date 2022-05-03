@@ -55,9 +55,8 @@ const me = keyframes`
 
 export const FaceContainer = styled.div`
     margin: 0 auto;
-    max-width:700px;
+    max-width:600px;
     display: flex;
-    justify-content: center;
     animation: ${me} 1s ease infinite alternate;
     transform-origin: bottom;
 
