@@ -31,5 +31,8 @@ export const Text = styled.h1`
   animation: 0.8s ${shake} infinite alternate;
   font-size: 60px;
   user-select: none;
-  
+
+  @media (max-width: 480px) {
+    font-size: 40px;
+  }
 `

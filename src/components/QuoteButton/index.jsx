@@ -4,7 +4,7 @@ export const QuoteButton = styled.button`
     font-size: 30px;
     font-family: "Amatic SC", sans-serif;
     padding: 20px 45px;
-    margin-top: 12px;
+    margin: 12px 0;
     color: gray;
     border-radius: 6px;
     transition: top 0.01s linear;
@@ -15,4 +15,10 @@ export const QuoteButton = styled.button`
     0 8px 8px 1px rgba(0, 0, 0, 0.5);
     outline: none;
     cursor: pointer;
+
+    @media (max-width: 480px) {
+        padding: 15px 25px;
+        font-size: 18px;
+        font-weight: 700;
+    }
 `;
