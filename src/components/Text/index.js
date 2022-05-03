@@ -32,12 +32,3 @@ export const Text = styled.h1`
   font-size: 60px;
   user-select: none;
 `
-
-/*
-<h1 id='glitch unselectable'>
-     
-    </h1>
- <blockquote >
-        <q>{text}</q>
-      </blockquote>
-*/
