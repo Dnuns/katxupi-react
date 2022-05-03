@@ -53,11 +53,3 @@ class App extends Component {
 }
 
 export default App;
-
-/*
- <section className='text'>
-          <Text text={data[random].text} />
-          <Author author={data[random].author} />
-          <QuoteButton handleNewQuote={this.handleNewQuote} />
-        </section>
-*/
