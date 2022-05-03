@@ -1,10 +1,16 @@
 import { Component } from 'react';
-import data from './data/data'
-import Text from './components/Text';
-import Author from './components/Author';
-import QuoteButton from './components/QuoteButton';
+import { Main} from './components/Main';
+import { FaceContainer } from './components/FaceContainer';
+import { Katxupi } from './components/Katxupi';
+import { QuoteContainer } from './components/QuoteContainer';
+import { Text } from './components/Text';
+import { Author } from './components/Author';
+import { QuoteButton } from './components/QuoteButton';
 
-import Katxupi from './assets/katxupi.png';
+
+import data from './data/data'
+import katxupi from './assets/katxupi.png';
+
 
 class App extends Component {
   constructor(props) {
@@ -26,17 +32,32 @@ class App extends Component {
   render() {
     const { data, random } = this.state;
     return (
-      <>      
-      <div class='face unselectable'>
-        <img src={Katxupi} alt='Katxupinóquio'></img>
-      </div>
-      <section className='text'>
+      <Main>
+        <FaceContainer>
+          <Katxupi src={katxupi} alt='katxupinóquio' />                 
+        </FaceContainer>
+        <QuoteContainer>
+          <Text>
+            <q>{data[random].text}</q>
+          </Text>
+          <Author>
+            {data[random].author}
+          </Author>
+          <QuoteButton onClick={this.handleNewQuote}>
+            Revela-te!
+          </QuoteButton> 
+        </QuoteContainer>
+      </Main>
+    );
+  }
+}
+
+export default App;
+
+/*
+ <section className='text'>
           <Text text={data[random].text} />
           <Author author={data[random].author} />
           <QuoteButton handleNewQuote={this.handleNewQuote} />
         </section>
-      </>
-    );}
-}
-
-export default App;
+*/

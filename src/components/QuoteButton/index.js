@@ -1,10 +1,18 @@
-const QuoteButton = ({ handleNewQuote }) => {
-    return (
-        <button id='myButton' className='button glitch' onClick={handleNewQuote}>
-            Revela-te!
-        </button>
-    );
-};
+import styled from "styled-components"
 
-
-export default QuoteButton;
+export const QuoteButton = styled.button`
+    font-size: 30px;
+    font-family: "Amatic SC", sans-serif;
+    padding: 20px 45px;
+    margin-top: 12px;
+    color: gray;
+    border-radius: 6px;
+    transition: top 0.01s linear;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.267);
+    background-color: #f0d264;
+    box-shadow: 0 0 0 1px #f0d264 inset, 0 0 0 2px rgba(255, 255, 255, 0) inset,
+    0 8px 0 0 rgba(196, 172, 83, 0.7), 0 8px 0 1px rgba(0, 0, 0, 0.4),
+    0 8px 8px 1px rgba(0, 0, 0, 0.5);
+    outline: none;
+    cursor: pointer;
+`;
