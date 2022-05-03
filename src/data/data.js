@@ -86,7 +86,7 @@ const data = [
         text: "Awesome!"
     },
     {
-        author: "#44_kotxiposix",
+        author: "R. Telhada",
         text: "Katxupi."
     },
     {
