@@ -44,7 +44,7 @@ const shake2 = keyframes`
     }
 `;
 
-const me = keyframes`
+const swing = keyframes`
   from {
     transform: rotateZ(-5deg);
   }
@@ -57,7 +57,7 @@ export const FaceContainer = styled.div`
     margin: 0 auto;
     max-width:600px;
     display: flex;
-    animation: ${me} 1s ease infinite alternate;
+    animation: ${swing} 1s ease infinite alternate;
     transform-origin: bottom;
 
     &:hover{
