@@ -7,6 +7,8 @@
 </br>
 </br>
 
+HTML, CSS, javaScript, Jest, Styled-components
+
 ---
 
 ## Why this project?
