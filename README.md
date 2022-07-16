@@ -4,8 +4,6 @@
 
 React, HTML, CSS, javaScript, Jest, Styled-components
 
----
-
 ## Why this project?
 
 While building my first Freecodecamp's React project, Random Quote Machine, I realised the project was identical to the Master Coder PP's project from Academia de Código (Bootcamp). He used HTML, JavaScript and CSS.
@@ -30,8 +28,6 @@ https://katxupi-react.vercel.app/
 ![screenshot](readme_img/katxupi.png)
 
 ![screenshot](readme_img/katxupi_mbl.png)
-
----
 
 ## Available Scripts
 
