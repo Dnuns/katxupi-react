@@ -96,6 +96,38 @@ const data = [
     {
         author: "#44_kotxiposix",
         text: "Nox on the rocks."
+    },
+    {
+        author: "R. Maia",
+        text: "Que não ama não chora."
+    },
+    {
+        author: "R. Telhada",
+        text: "Ai, minha dislexia!."
+    },
+    {
+        author: "R. Maia",
+        text: "açucar sintático."
+    },
+    {
+        author: "R. Maia",
+        text: "sabi sintático."
+    },
+    {
+        author: "PP",
+        text: "obrigado pelo summarizer."
+    },
+    {
+        author: "PP",
+        text: "mortal pra frete...Amanhã"
+    },
+    {
+        author:"Nox",
+        text:"voz do @Nox ツ imitando um passaralho /ñohwo/."
+    },
+    {
+        author: "PP",
+        text: "O olho que tudo vê."
     }
 ];
 
