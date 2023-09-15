@@ -119,7 +119,7 @@ const data = [
     },
     {
         author: "PP",
-        text: "mortal pra frete...Amanhã"
+        text: "mortal pra frente...Amanhã"
     },
     {
         author:"Nox",
